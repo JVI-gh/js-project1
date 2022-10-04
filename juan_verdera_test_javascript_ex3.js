@@ -79,7 +79,7 @@ function verifyRegion(tableToCheck) {
   
         rowE.appendChild(indexErrorElement);
   
-        tableToCheck[i].forEach((cellData) => {
+        region.forEach((cellData) => {
           let cell = document.createElement("td");
           cell.appendChild(document.createTextNode(cellData));
           rowE.appendChild(cell);
